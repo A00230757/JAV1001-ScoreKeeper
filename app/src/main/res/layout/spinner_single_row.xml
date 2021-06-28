@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- this is single spinner xml file in which there is image and name of game for selected game in spinner game type-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:weightSum="10"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- image view for game type image-->
+    <ImageView
+        android:scaleType="fitXY"
+        android:src="@drawable/gameicon"
+        android:id="@+id/imageviewgametype"
+        android:layout_weight="7"
+        android:layout_width="0dp"
+        android:layout_height="100dp" />
+    <!-- text view for game type name-->
+    <TextView
+        android:id="@+id/textviewgametype"
+        android:padding="10dp"
+        android:layout_weight="3"
+        android:text="Any Text"
+        android:textStyle="bold"
+        android:layout_width="0dp"
+        android:layout_height="100dp" />
+
+
+</LinearLayout>

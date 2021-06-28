@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jav1001_scorekeeper">
+    <!-- game icon is changed and its name is also changed -->
+    <application
+        android:allowBackup="true"
+        android:label="Score Keeping"
+        android:icon="@drawable/gameicon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.JAV1001Scorekeeper">
+        <activity android:name=".SplashScreenActivity">
+            <intent-filter>   <!-- to make splash screen as launcher-->
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="Main Activity"
+            android:theme="@style/Theme.JAV1001Scorekeeper.NoActionBar">
+
+        </activity>
+    </application>
+
+</manifest>
