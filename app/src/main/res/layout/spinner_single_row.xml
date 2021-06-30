@@ -4,7 +4,7 @@
     android:orientation="horizontal"
     android:weightSum="10"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content">
     <!-- image view for game type image-->
     <ImageView
         android:scaleType="fitXY"
@@ -19,6 +19,7 @@
         android:padding="10dp"
         android:layout_weight="3"
         android:text="Any Text"
+        android:textColor="#000000"
         android:textStyle="bold"
         android:layout_width="0dp"
         android:layout_height="100dp" />
